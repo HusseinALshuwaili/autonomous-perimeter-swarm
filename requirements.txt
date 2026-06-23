@@ -1,0 +1,6 @@
+pygame>=2.5
+numpy>=1.24
+
+# Only needed for web deployment (compiles to WASM via pygbag) -- not
+# required to run the simulator locally on desktop.
+pygbag>=0.9
